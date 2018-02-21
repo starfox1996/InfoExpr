@@ -17,7 +17,7 @@ public class User_s15t232_00 extends GogoCompSub {
 //====================================================================
 
   // TODO: クラス名を変更する
-  public User_s15t232_00(int id, GamePlayer player) {
+  public User_s15t232_01(int id, GamePlayer player) {
     // !!! この処理は触らないこと!!!
     super(player);
     name = Integer.toString(id);
