@@ -10,21 +10,21 @@ import sys.struct.GogoHand;
 import sys.user.GogoCompSub;
 
 // TODO: クラス名を変更する
-public class User_s15t232_01 extends GogoCompSub {
+public class User_s15t232_02 extends GogoCompSub {
 
 //====================================================================
 //  コンストラクタ
 //====================================================================
 
   // TODO: クラス名を変更する
-  public User_s15t232_01(int id, GamePlayer player) {
+  public User_s15t232_02(int id, GamePlayer player) {
     // !!! この処理は触らないこと!!!
     super(player);
     name = Integer.toString(id);
     // !!! ここまで !!!
   }
 
-  public User_s15t232_01(GamePlayer player) {
+  public User_s15t232_02(GamePlayer player) {
     super(player);
     name = "s15t232";    // TODO: プログラマが入力
   }
